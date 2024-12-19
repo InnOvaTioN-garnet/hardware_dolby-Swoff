@@ -68,7 +68,6 @@ PRODUCT_PACKAGES += \
     libstagefright_softomx_plugin.vendor \
 
 # Dolby Props
-TARGET_USES_DOLBY := true
 PRODUCT_VENDOR_PROPERTIES += \
 ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1 \
 vendor.audio.dolby.ds2.enabled=true \
@@ -81,7 +80,6 @@ PRODUCT_PACKAGES += \
 
 # XiaomiDolby and daxService
 PRODUCT_PACKAGES += \
-    XiaomiDolby \
     daxService \
    
 # Dolby Permissions
