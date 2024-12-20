@@ -69,7 +69,7 @@ PRODUCT_PACKAGES += \
 
 # Dolby Props
 PRODUCT_VENDOR_PROPERTIES += \
-ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1 \
+ro.vendor.dolby.dax.version=DAX3_3.7.0.8_r1 \
 vendor.audio.dolby.ds2.enabled=true \
 vendor.audio.dolby.ds2.hardbypass=false \
 ro.audio.monitorRotation=true \
@@ -78,16 +78,15 @@ ro.audio.monitorRotation=true \
 PRODUCT_PACKAGES += \
     RemovePackagesDolby
 
-# XiaomiDolby and daxService
+# Sony DaxUI and daxService
 PRODUCT_PACKAGES += \
+    DolbySound \
     daxService \
    
 # Dolby Permissions
 PRODUCT_COPY_FILES += \
-    $(DOLBY_PATH)/proprietary/system_ext/etc/sysconfig/config-com.dolby.daxappui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/config-com.dolby.daxappui.xml \
+    $(DOLBY_PATH)/proprietary/system_ext/etc/sysconfig/config-com.dolby.daxappui2.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/config-com.dolby.daxappui2.xml \
     $(DOLBY_PATH)/proprietary/system_ext/etc/sysconfig/config-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/config-com.dolby.daxservice.xml \
-    $(DOLBY_PATH)/proprietary/system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml \
-    $(DOLBY_PATH)/proprietary/system_ext/etc/permissions/privapp-com.dolby.daxappui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-com.dolby.daxappui.xml \
     $(DOLBY_PATH)/proprietary/system_ext/etc/permissions/privapp-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-com.dolby.daxservice.xml \
 
 # Dolby Proprietary blobs
