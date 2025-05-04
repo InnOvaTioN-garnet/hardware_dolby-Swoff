@@ -1,0 +1,17 @@
+## Sony Dolby Atmos (C2 Dolby)
+
+Sony UI https://github.com/swiitch-OFF-Lab/hardware_dolby/tree/sony-1.0
+
+OSS UI  https://github.com/swiitch-OFF-Lab/hardware_dolby/tree/sony-1.1
+
+## Sony Dolby Atmos with Dolby vision (C2 Dolby)
+
+OSS UI https://github.com/swiitch-OFF-Lab/hardware_dolby/tree/Dolby-Vision
+
+## MIUI Dolby Atmos
+
+OSS UI https://github.com/swiitch-OFF-Lab/hardware_dolby/tree/XiaomiDolby-15
+
+## Motorola Dolby Atmos
+
+Not Pushed
