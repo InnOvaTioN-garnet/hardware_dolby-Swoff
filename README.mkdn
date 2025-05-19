@@ -4,6 +4,8 @@ Sony UI https://github.com/swiitch-OFF-Lab/hardware_dolby/tree/sony-1.0
 
 OSS UI  https://github.com/swiitch-OFF-Lab/hardware_dolby/tree/sony-1.1
 
+OnePlus UI https://github.com/swiitch-OFF-Lab/hardware_dolby/tree/sony-1.2
+
 ## Sony Dolby Atmos with Dolby vision (C2 Dolby)
 
 OSS UI https://github.com/swiitch-OFF-Lab/hardware_dolby/tree/Dolby-Vision
